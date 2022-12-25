@@ -27,4 +27,4 @@ int y2 = getUserValue("Введите y для точки B: ");
 int z2 = getUserValue("Введите z для точки B: ");
 
 double LengthAB =  Math.Round (getLengthAB(x1, x2, y1, y2, z1, z2), 2 );
-Console.WriteLine(LengthAB);
+Console.WriteLine($"Растояние между точками А и B в 3D пространстве равно: {LengthAB}");
